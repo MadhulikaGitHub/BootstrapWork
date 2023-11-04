@@ -1,0 +1,341 @@
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+
+body{
+    background: #212529 !important;
+    color: #fff !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: Bebas Neue,sans-serif !important;
+}
+
+h6
+{
+    color: #fba919 !important;
+}
+
+p{
+    font-family: DM Sans,sans-serif !important;
+}
+
+button{
+    background: #ffa500 !important;
+    color: #fff !important;
+    font-family: DM Sans,sans-serif !important;
+    font-size: 1rem !important;
+}
+
+video{
+    object-fit: fill;
+    overflow: hidden;
+}
+
+h1 span{
+    color: #fba919;
+}
+
+i{
+    color: #fcb21b;;
+    font-size: 2rem;
+}
+
+::placeholder{
+    color: whitesmoke !important;
+    font-weight: lighter;
+}
+
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+
+#header nav{
+    background: #0000009c !important;
+} 
+
+#header li:hover{
+    background: #ffa500;
+} 
+
+#header a{
+    color: #fff;
+}
+
+.active{
+    background: #ffa500;
+    color: #fff;
+}
+
+.weblogo{
+    width: 70px;
+}
+
+.mobilelogo{
+    display: none;
+}
+
+.header-franchise{
+    border: #ffa500 1px solid !important;
+}
+
+/*--------------------------------------------------------------
+# Slider
+--------------------------------------------------------------*/
+
+#slider video{
+    height: 90vh;
+}
+
+/*--------------------------------------------------------------
+# WELCOME TO FIRST FIDDER
+--------------------------------------------------------------*/
+
+#welcome p{
+    text-align: justify;
+}
+
+/*--------------------------------------------------------------
+# MEDIA MENTIONS
+--------------------------------------------------------------*/
+
+#media{
+    background-image: url(./images/media.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+#media .container-fluid{
+    background: #0000009c;
+    z-index: 1;
+}
+
+/*--------------------------------------------------------------
+# EXPERIENCE OUR CONCEPTS
+--------------------------------------------------------------*/
+
+#experience{
+    background-image: url(https://pn-paul.netlify.app/image/ffback2.png);
+}
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+footer{
+    background: #111215;
+}
+
+/* footer i{
+    color: #fcb21b;;
+    font-size: 2rem;
+} */
+
+/*--------------------------------------------------------------
+# Policies
+--------------------------------------------------------------*/
+
+#policies{
+    background: black;
+}
+
+/*--------------------------------------------------------------
+# BANNER - ABOUT/BRAND/PRESS-RELEASE
+--------------------------------------------------------------*/
+
+#banner-about,
+#banner-brand,
+#banner-team,
+#banner-press,
+#banner-contact,
+#banner-career
+{
+    background-position: center;
+    background-size: cover;
+}
+
+
+#banner-about {
+    background-image: url(https://pn-paul.netlify.app/image/ourimage.jpg);
+}
+
+#banner-brand {
+    background-image: url(https://pn-paul.netlify.app/image/brands.jpg);
+}
+
+#banner-team{
+    background-image: url(https://pn-paul.netlify.app/image/new-our-team.jpg);
+}
+
+#banner-press{
+    background-image: url(https://pn-paul.netlify.app/image/press-new-1.jpg);
+}
+
+#banner-contact{
+    background-image: url(https://pn-paul.netlify.app/image/CONTACT-US.jpg);
+}
+
+#banner-career{
+    background-image: url(https://pn-paul.netlify.app/image/new-careers-1.jpg);
+}
+
+#banner-about .row,
+#banner-brand .row,
+#banner-team .row,
+#banner-press .row,
+#banner-contact .row,
+#banner-career .row
+{
+    height: 90vh;
+}
+
+#banner-about h1,
+#banner-brand h1,
+#banner-team h1,
+#banner-press h1,
+#banner-contact h1,
+#banner-career h1
+{
+    font-family: Bodoni Moda,serif !important;
+    font-size: 3rem;
+}
+
+/*--------------------------------------------------------------
+# THE GAME CHANGER
+--------------------------------------------------------------*/
+
+#game-changer{
+    background-image: url(https://pn-paul.netlify.app/image/gamebanner.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+/*--------------------------------------------------------------
+# THE MAN BEHIND THE FIDDLE
+--------------------------------------------------------------*/
+
+.h2-style{
+    font-family: Bodoni Moda,serif !important;
+    color: #fdc213;
+}
+
+/*--------------------------------------------------------------
+# PRESS-REALEASE
+--------------------------------------------------------------*/
+
+#offline span,
+#online span
+{
+    background-color: #ffa500;
+    color: white;
+}
+
+#online .card{
+    box-shadow: 1px 1px 12px #020001;
+    background: #212529 !important;
+}
+
+#online .detail{
+    overflow-y: auto;
+    height: 13.8cm;
+}
+
+/*--------------------------------------------------------------
+# CONTACT
+--------------------------------------------------------------*/
+
+#contact .card{
+    background: #2a2a2a !important;
+    box-shadow: 1px 1px 12px #020001;
+}
+
+.text1{
+    border-radius: 8px!important;
+    background: #2a2a2a!important;
+}
+
+/*--------------------------------------------------------------
+# CAREER
+--------------------------------------------------------------*/
+
+#apply h4
+{
+    color: #fba919 !important;
+}
+
+#apply .card{
+    background: #2a2a2a !important;
+    box-shadow: 1px 1px 12px #020001;
+}
+
+.marginTopDesktop{
+    margin-top: 1rem;
+}
+
+/*--------------------------------------------------------------
+# Media Query
+--------------------------------------------------------------*/
+
+@media (max-width:992px) {
+
+    /* header */
+    .mobilelogo{
+        display: block;
+    } 
+
+    .weblogo{
+        display: none;
+    }
+
+    #header nav{
+        background: #fbac1b !important;
+    }
+
+    .header-franchise{
+        margin-bottom: 16px;
+    }
+
+    /* slider */
+    #slider img{
+        margin-top: 5rem;
+    }
+
+    /* footer */
+    footer h1{
+        margin-top: 2rem;
+    }
+
+    /* BANNER ABOUT */
+    .banner{
+        margin-top: 5rem;
+    }
+
+    /* THE MAN BEHIND THE FIDDLE */
+    .man{
+        margin-bottom: 2rem;
+    }
+    
+    /* JOIN OUR FAMILY */
+    .family{
+        margin-bottom: 2rem;
+    }
+
+    /* Priyank */
+    .priyank{
+        margin-bottom: 2rem;
+    }
+
+    /* online */
+    #online .detail{
+        margin-top: 2rem;
+    }
+
+    /* Contact */
+    .marginTop{
+        margin-top: 1rem;
+    }
+}
